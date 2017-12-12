@@ -1,0 +1,100 @@
+header {
+  width: 100%;
+  position: fixed;
+  z-index: 99999;
+
+
+}
+main {
+  position: relative;
+
+}
+.jumbotron {
+  margin-top: 0.5rem;
+  background-image: url(../media/illustrations/jumbotron_s.jpg);
+  background-size: cover;
+  color: white;
+}
+.jumbotron .btn {
+  border: 1px solid hsla(188,78%,21%,1);
+  box-shadow: 0 0 2px 3px rgba(0, 0, 0, 0.3);
+}
+.row {
+  text-align: center;
+  margin: 0 auto;
+
+}
+.row .title{
+
+  margin: 0 auto;
+}
+.row .title h2 {
+  margin-bottom:2rem;
+
+}
+.row .illustrations{
+
+  margin: 0 auto;
+}
+img {
+  margin-bottom: 1rem;
+}
+img .img_thumbnail{
+border: none;
+}
+.media {
+  display: flex;
+  flex-direction: column;
+}
+#myVideo {
+    position: relative;
+
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+/* Add some content at the bottom of the video/page */
+.content {
+    position: relative;
+    bottom: 9.5rem;
+    background: rgba(0, 0, 0, 0.39);
+    color: #f1f1f1;
+    width: 100%;
+    padding-left: 2rem;
+    padding-bottom: .6rem;
+}
+
+/* Style the button used to pause/play the video */
+#myBtn {
+    width: 200px;
+    font-size: 18px;
+    padding: 10px;
+    border: 1px solid white;
+    background: transparent;
+    color: #fff;
+    cursor:pointer;
+}
+
+#myBtn:hover {
+    background: hsla(188,78%,35%,1);
+    color: black;
+}
+
+.parallax{
+    /* The image used */
+    background-image: url(../media/illustrations/hany.jpg);;
+
+    /* Set a specific height */
+    min-height: 800px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: top left;
+    position: relative;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Add some content at the bottom of the video/page */
