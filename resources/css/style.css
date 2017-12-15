@@ -96,5 +96,23 @@ border: none;
     background-repeat: no-repeat;
     background-size: cover;
 }
+.floatin_box {
+  display: flex;
+  justify-content: flex-end;
+
+}
+.floatin {
+  display: block;
+  width: auto;
+  text-align: right;
+  align-items: flex-end;
+  position: relative;
+  top:-20rem;
+  right: 0rem;
+  z-index: 9;
+  background-color: hsla(180,0%,100%,.8);
+  padding: 1rem;
+
+}
 
 /* Add some content at the bottom of the video/page */
